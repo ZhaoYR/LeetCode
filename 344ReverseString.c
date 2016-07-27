@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*char reverseString(string s)
+    char* reverseString(char* s)
     {
         char tem;
         int i = 0;
@@ -16,14 +16,12 @@ int main()
             }
         return s;
     }
-    string s;
-    string t;
+    char* s;
+    char* t;
     scanf("%s",s);
     t = reverseString( s);
     printf("%s/n",s);
-*/
-    char = s ;
-    s = "hello";
-    printf("%s",s);
+
+    printf("hello");
     return 0;
 }
