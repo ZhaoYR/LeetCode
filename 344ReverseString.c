@@ -1,11 +1,29 @@
 #include<stdio.h>
 #include<string.h>
-char* reverseString(char* s){
-	char tem;
-	for(int i = 0; i < strnlen(s)/2 ; i++){
-		tem = s[i];
-		s[i] = s[strlen(s)-1-i];
-		s[strlen(s)-1-i] = tem;
-	}
-	return s;
+
+int main()
+{
+    /*char reverseString(string s)
+    {
+        char tem;
+        int i = 0;
+        int j = strlen(s);
+        for(i = 0; i < j/2 ; i++)
+            {
+                tem = s[i];
+                s[i] = s[j-1-i];
+                s[j-1-i] = tem;
+            }
+        return s;
+    }
+    string s;
+    string t;
+    scanf("%s",s);
+    t = reverseString( s);
+    printf("%s/n",s);
+*/
+    char = s ;
+    s = "hello";
+    printf("%s",s);
+    return 0;
 }
