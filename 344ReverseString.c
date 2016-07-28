@@ -21,7 +21,5 @@ int main()
     scanf("%s",s);
     t = reverseString( s);
     printf("%s/n",s);
-
-    printf("hello");
     return 0;
 }
